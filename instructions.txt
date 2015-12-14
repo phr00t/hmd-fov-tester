@@ -1,0 +1,38 @@
+Universal Effective VR Headset Field of View Tester
+Developed by Phr00t's Software (www.phr00t.com)
+------------------------------------------------------
+
+* Requires Java 8 & SteamVR.
+
+1) Make sure your headset is on, properly fitted, and
+being recognized by SteamVR.
+
+2) Run VR-HMD-FOVTester.jar with Java.
+
+3) Look at the small floating box with a target, the
+degree numbers should be very small when doing so. The
+center of the target is the measurement point.
+
+4) You will want to measure both the left to right
+field of view, and the top to bottom seperately.
+
+5) Turn your head to the right, until you can't see
+the center of the target anymore on your left. You can
+swivel your eyes & try your best to see it -- we are
+trying to determine when the headset can't show you the
+target's center anymore.
+
+6) The "Deg FOV X:" number will be the "center to left"
+field of view. You need to repeat this process by
+turning your head to the left, and measuring when the
+target's center is no longer visible on the right. You
+will get another "Deg FOV X:" number.
+
+7) Add the two numbers together. This will give you the
+horizontal range field of view of your headset.
+
+8) Repeat the whole process, but instead of turning left
+& right, turn your head up & down. This will give you the
+vertical range field of view of your headset (using the
+"Deg FOV Y:" numbers).
+

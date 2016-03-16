@@ -41,7 +41,6 @@ public class Main extends VRApplication {
     public static void main(String[] args){
         Main test = new Main();
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.USE_CUSTOM_DISTORTION, false); // use full screen distortion, maximum FOV, possibly quicker even
-        test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.DISABLE_SWAPBUFFERS_COMPLETELY, true); // runs faster, but only VR Compositor visibility available
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.FORCE_VR_MODE, true); // render two eyes, regardless of SteamVR
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.SET_GUI_CURVED_SURFACE, true);
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.FLIP_EYES, false);

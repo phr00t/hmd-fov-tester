@@ -46,6 +46,7 @@ public class Main extends VRApplication {
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.FLIP_EYES, false);
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.SET_GUI_OVERDRAW, true); // show gui even if it is behind things
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.INSTANCE_VR_RENDERING, false); // WIP
+        test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.FORCE_DISABLE_MSAA, true);
         test.preconfigureVRApp(VRApplication.PRECONFIG_PARAMETER.NO_GUI, false);
         test.preconfigureFrustrumNearFar(0.1f, 512f);
         test.start();
